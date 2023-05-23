@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#C90F1698"
+    tools:context=".MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15px"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cartoon Pedia"
+            android:textSize="35dp"
+            android:textColor="#FFEB3B"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/bgp3"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ultimate Alien"
+            android:textSize="35dp"
+            android:textColor="#F0FF9800"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="The plot follows on from Ben 10. \nAlien Force; set one year after the events of the previous series. The Omnitrix has been destroyed, and Ben must learn to master the incredible and incomprehensible secrets of the new Ultimatrix,\n a gauntlet-like version of the old Omnitrix that not only gives him access to all of his original alien abilities, but also allows him to\n evolve his alien forms into far much stronger and more powerful versions; called ultimate forms.\nThe second season features more self-contained stories rather than employing an overall storyline,\n although a real storyline is developing with the appearance of the mysterious,\n but dangerous Sir George and the extra-dimensional demon called Diagon.\n\n
+
+After the defeat of Vilgax who absorbed the enormous abilities and powers of Diagon to become even stronger and more powerful,\n Azmuth appears to ask Ben to give his sword, Ascalon, \nand the Ultimatrix back, giving Ben the \nnew-and-improved and greatly modified version of the Omnitrix."
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/alien1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/alien2"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/alien3"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hero Time"
+            android:textSize="30dp"
+            android:textColor="#F6DE0D"
+            android:backgroundTint="#0CA0E3"
+            android:padding="15dp"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+</LinearLayout>
